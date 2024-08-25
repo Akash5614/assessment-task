@@ -1,0 +1,89 @@
+/* Container styling */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: #ffffff; /* Clean white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333333; /* Dark grey text for readability */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading styling */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333333; /* Dark grey for heading */
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form field container styling */
+div {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: #555555; /* Slightly lighter grey for labels */
+}
+
+/* Input field styling */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc; /* Light grey border */
+  border-radius: 4px;
+  background: #f9f9f9; /* Very light grey background for inputs */
+  color: #333333; /* Dark grey text */
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+/* Input field focus styling */
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background: #ffffff; /* White background on focus */
+  border-color: #007bff; /* Blue border on focus */
+  outline: none;
+}
+
+/* Button styling */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Blue button background */
+  color: #ffffff; /* White text */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Message styling */
+p {
+  text-align: center;
+  color: #dc3545; /* Red color for error messages */
+  font-size: 0.9rem;
+  margin-top: 15px;
+}
